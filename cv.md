@@ -24,6 +24,7 @@ Personal Qualities:
 
 Here will be the skills after the courses RSSchool
 
+- VS Code
 - JS
 - HTML&CSS
 - Git
@@ -31,11 +32,33 @@ Here will be the skills after the courses RSSchool
 
 ## Code example
 
-```
+[Base Conversion kata from Codewars](https://www.codewars.com/kata/base-conversion)
+In this kata you have to implement a base converter, which converts positive integers between arbitrary bases / alphabets.
 
 ```
+convert('1010',bin,dec)
 
-> I'm working on it
+function convert(input,source,target) {
+	let arr= [];
+	let inDec = 0 ;
+
+	for (let i = 0; i < input.length; i++) {
+		len = input.length-1-i
+		inDec += source.indexOf(input[len])*Math.pow(source.length,i);
+	}
+
+	while (inDec >= target.length) {
+		symb = inDec % target.length;
+		arr.unshift(target[symb])
+		inDec = Math.floor(inDec / target.length)
+	}
+
+	arr.unshift(target[inDec])
+	return arr.join('')
+}
+```
+
+> I'm working on it yet
 
 ## Education
 
