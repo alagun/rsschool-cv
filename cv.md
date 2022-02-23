@@ -58,13 +58,17 @@ function convert(input,source,target) {
 }
 ```
 
-> I'm working on it yet
+> I'm hardly working on it yet
 
 ## Education
 
-- JS, CSS, HTML, Git video courses on Stage0 RSSchool
-- JavaScript https://learn.javascript.ru/
-- Basic JS, CSS, HTML https://ru.code-basics.com/
+- University:
+  - Brest State Technical University. Industrial electronics. Electronics engineer
+  - Brest branch Minsk State University. Logistic. Economist
+- Courses:
+  - [JS, CSS, HTML, Git video courses on Stage0 RSSchool](https://rs.school/js-stage0/)
+  - [JavaScript](https://learn.javascript.ru/)
+  - [Basic JS, CSS, HTML](https://ru.code-basics.com/)
 
 ## Experience
 
