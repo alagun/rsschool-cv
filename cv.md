@@ -22,13 +22,13 @@ Personal Qualities:
 
 ## Skills
 
-Here will be the skills after the courses RSSchool
-
 - VS Code
 - JS
 - HTML&CSS
 - Git
 - Figma
+
+And, now I'm level up my skills
 
 ## Code example
 
