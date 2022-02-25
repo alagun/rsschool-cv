@@ -2,9 +2,11 @@
 
 ## Contacts:
 
+> - Location: Brest, Belarus
 > - E-mail: alexej.lagun@gmail.com
 > - GitHub: alagun
 > - Discord: alagun
+> - Telegram: @AlexeyLagun
 > - Tel: +375 33 674 08 53
 
 ---
