@@ -62,7 +62,7 @@ main {
   text-transform: uppercase;
   color: #94d9ea;
 }
-.contacts {
+h2 {
   font-size: 1.5rem;
   padding-top: 2rem;
   text-transform: uppercase;
@@ -84,6 +84,54 @@ main {
   font-size: 1.1rem;
   color: #94d9ea;
 }
+.skills {
+}
+.skills__list {
+  padding-top: 2rem;
+}
+.skills__item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.4rem 0;
+}
+.skill__title {
+  color: #94d9ea;
+  font-size: 1rem;
+  padding-right: 1rem;
+}
+.progress__bar {
+  position: relative;
+  width: 100%;
+  height: 0.4rem;
+  background-color: #002333;
+  border-radius: 12px;
+}
+.progress {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  background-color: #718096;
+  border-radius: 12px;
+}
+.vscode__progress {
+  width: 70%;
+}
+.js__progress {
+  width: 50%;
+}
+.html__progress {
+  width: 80%;
+}
+.css__progress {
+  width: 70%;
+}
+.git__progress {
+  width: 60%;
+}
+.figma__progress {
+  width: 30%;
+}
+
 .right__section {
   grid-column: span 5;
   height: 100%;
