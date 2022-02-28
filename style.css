@@ -221,7 +221,25 @@ main {
   font-size: 1.1rem;
   color: var(--grey);
 }
-
+.js__function {
+  color: #fec418;
+}
+.js__title {
+  color: #e90000;
+}
+.js__keyword {
+  color: #815ba4;
+}
+.js__param,
+.js__number {
+  color: #f99b15;
+}
+.js__string {
+  color: #48b685;
+}
+.js__perem {
+  color: #62c6ee;
+}
 footer {
   width: 90%;
   margin: 0.3rem auto;

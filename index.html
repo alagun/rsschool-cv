@@ -143,6 +143,32 @@
 						<h2 class="right__title">
 							<span>Code</span>
 						</h2>
+						<div class="code">
+							<pre class="code__example">
+								<code class="code__example-code">
+									<span class="js__keyword"></span> 
+	<span class="js__function">convert</span> (<span class="js__string">'1010'</span>,<span class="js__param"> bin</span>,<span class="js__param"> dec</span>)
+	<span class="js__keyword">function </span><span class="js__function">convert</span> (<span class="js__param">input</span>,<span class="js__param"> source</span>,<span class="js__param"> target</span>) {										
+		<span class="js__keyword">let </span><span class="js__perem">arr</span> = [];
+		<span class="js__keyword">let </span><span class="js__perem">inDec</span> = 0;
+
+		<span class="js__keyword">for </span>(<span class="js__keyword">let </span><span class="js__perem">i</span> = 0, <span class="js__perem">i </span>< <span class="js__param">input</span>.<span class="js__keyword">length</span>; <span class="js__perem">i </span>++) {
+			<span class="js__perem">len </span>= <span class="js__param">input</span>.<span class="js__keyword">length</span> - 1 - <span class="js__perem">i</span>;
+			<span class="js__perem">inDec </span>= <span class="js__param">source</span>.<span class="js__keyword">indexOf</span>(<span class="js__param">input</span>[<span class="js__perem">len</span>]) * <span class="js__keyword">Math</span>.<span class="js__keyword">pow</span>(<span class="js__param">source</span>.<span class="js__keyword">length</span>, <span class="js__perem">i</span>);			
+		}	
+
+		<span class="js__keyword">while </span>(<span class="js__perem">inDec </span>>= <span class="js__param"> target</span>.<span class="js__keyword">length</span>) {
+			<span class="js__perem">symb </span>= <span class="js__perem">inDec </span>% <span class="js__param"> target</span>.<span class="js__keyword">length</span>;
+			<span class="js__perem">arr</span>.<span class="js__keyword">unshift</span>(<span class="js__param">target</span>[<span class="js__perem">symb</span>]);
+			<span class="js__perem">inDec </span>= <span class="js__keyword">Math</span>.<span class="js__keyword">floor</span>(<span class="js__perem">inDec </span>/ <span class="js__param">target</span>.<span class="js__keyword">length</span>);
+		}
+
+		<span class="js__perem">arr</span>.<span class="js__keyword">unshift</span>(<span class="js__param"> target</span>[<span class="js__perem">inDec</span>]);
+		<span class="js__keyword">return </span><span class="js__perem">arr</span>.<span class="js__keyword">join</span>(<span class="js__string">''</span>)
+	}
+								</code>
+							</pre>
+						</div>
 					</div>
 					<div class="education" id="language">
 						<h2 class="right__title">
