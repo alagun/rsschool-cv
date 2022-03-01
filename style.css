@@ -7,7 +7,14 @@
   --light-text: #f7f7f7;
   --dark-text: #000000;
   --right-title: #2f80ed;
+  --function: #fec418;
+  --keyword: #815ba4;
+  --param: #fc9404;
+  --string: #48b685;
+  --perem: #62c6ee;
+  --code: #71809623;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -221,24 +228,35 @@ main {
   font-size: 1.1rem;
   color: var(--grey);
 }
-.js__function {
-  color: #fec418;
+.code__example {
+  background: var(--code);
+  margin: 1rem;
 }
-.js__title {
-  color: #e90000;
+.js__function {
+  color: var(--function);
 }
 .js__keyword {
-  color: #815ba4;
+  color: var(--keyword);
 }
 .js__param,
 .js__number {
-  color: #f99b15;
+  color: var(--param);
 }
 .js__string {
-  color: #48b685;
+  color: var(--string);
 }
 .js__perem {
-  color: #62c6ee;
+  color: var(--perem);
+}
+.codewars {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.language {
+  padding: 1rem;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+  color: var(--grey);
 }
 footer {
   width: 90%;
