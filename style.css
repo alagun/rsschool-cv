@@ -228,6 +228,37 @@ main {
   font-size: 1.1rem;
   color: var(--grey);
 }
+/*EDUCATION SECTION BEGIN*/
+.education__list {
+  display: block;
+  padding: 1rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+
+  line-height: 1.6rem;
+  color: var(--dark-text);
+}
+.education__item {
+  list-style-type: disc;
+  padding: 1rem 0;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+  color: var(--grey);
+}
+.basic {
+  padding-left: 1rem;
+}
+.basic__item {
+  line-height: 1.6rem;
+  font-size: 1rem;
+  text-transform: none;
+  color: var(--dark-text);
+}
+/*EDUCATION SECTION END*/
+
+/*CODE SECTION BEGIN*/
 .code__example {
   background: var(--code);
   margin: 1rem;
@@ -257,6 +288,12 @@ main {
   line-height: 1.6rem;
   font-size: 1.1rem;
   color: var(--grey);
+}
+.language li::before {
+  content: ">";
+  background: lightgray;
+  border-radius: 50%;
+  padding-inline: 0.3rem;
 }
 footer {
   width: 90%;
