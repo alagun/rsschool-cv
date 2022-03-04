@@ -7,11 +7,11 @@
   --light-text: #f7f7f7;
   --dark-text: #000000;
   --right-title: #2f80ed;
-  --function: #fec418;
+  --function: #fe2718;
   --keyword: #815ba4;
   --param: #fc9404;
   --string: #48b685;
-  --perem: #62c6ee;
+  --perem: #1d98c9;
   --code: #71809623;
 }
 
@@ -101,6 +101,10 @@ main {
 .profile {
   width: 100%;
   border-bottom: 1px solid var(--light-text);
+}
+.image {
+  width: 100%;
+  text-align: center;
 }
 .profile img {
   width: 100%;
@@ -283,6 +287,9 @@ main {
   margin-top: 1rem;
   padding: 1rem;
 }
+/*CODE SECTION END*/
+
+/*LANGUAGE SECTION BEGIN*/
 .language {
   padding: 1rem;
   line-height: 1.6rem;
@@ -295,7 +302,28 @@ main {
   border-radius: 50%;
   padding-inline: 0.3rem;
 }
+/*LANGUAGE SECTION END*/
+
+/*FOOTER BEGIN*/
 footer {
   width: 90%;
   margin: 0.3rem auto;
 }
+/*FOOTER END*/
+
+/*MEDIA BEGIN*/
+@media screen and (max-width: 1000px) {
+  .content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .profile img {
+    max-width: 444px;
+  }
+  .left__section h2 {
+    text-align: center;
+  }
+  .left__content {
+    padding: 2rem 4rem;
+  }
+}
+/*MEDIA END*/

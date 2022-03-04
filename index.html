@@ -16,10 +16,10 @@
 		<header>
 			<nav class="nav">
 				<ul class="menu">
-					<li class="menu__item"><a href="#myself">About myself</a></li>
+					<li class="menu__item"><a href="#myself">About</a></li>
 					<li class="menu__item"><a href="#contacts">Contacts</a></li>
 					<li class="menu__item"><a href="#skills">Skills</a></li>
-					<li class="menu__item"><a href="#experience">Experience</a></li>
+					<li class="menu__item"><a href="#experience">Projects</a></li>
 					<li class="menu__item"><a href="#code">Code</a></li>
 					<li class="menu__item"><a href="#educat">Education</a></li>
 					<li class="menu__item"><a href="#language">Language</a></li>
@@ -30,7 +30,9 @@
 			<section class="left__section">
 				<div class="left__content">
 					<div class="profile">
-						<img src="./img/photo.jpeg" alt="MyPhoto">
+						<div class="image">
+							<img src="./img/photo.jpeg" alt="MyPhoto">
+						</div>
 						<h1 class="name">Alexey Lagun</h1>
 						<span class="position">Junior Front-End Developer</span>
 					</div>
@@ -181,7 +183,8 @@
 
 		<span class="js__keyword">for </span>(<span class="js__keyword">let </span><span class="js__perem">i</span> = 0, <span class="js__perem">i </span>< <span class="js__param">input</span>.<span class="js__keyword">length</span>; <span class="js__perem">i </span>++) {
 			<span class="js__perem">len </span>= <span class="js__param">input</span>.<span class="js__keyword">length</span> - 1 - <span class="js__perem">i</span>;
-			<span class="js__perem">inDec </span>= <span class="js__param">source</span>.<span class="js__keyword">indexOf</span>(<span class="js__param">input</span>[<span class="js__perem">len</span>]) * <span class="js__keyword">Math</span>.<span class="js__keyword">pow</span>(<span class="js__param">source</span>.<span class="js__keyword">length</span>, <span class="js__perem">i</span>);			
+			<span class="js__perem">inDec </span>= <span class="js__param">source</span>.<span class="js__keyword">indexOf</span>(<span class="js__param">input</span>[<span class="js__perem">len</span>]) *
+			      	     <span class="js__keyword">Math</span>.<span class="js__keyword">pow</span>(<span class="js__param">source</span>.<span class="js__keyword">length</span>, <span class="js__perem">i</span>);			
 		}	
 
 		<span class="js__keyword">while </span>(<span class="js__perem">inDec </span>>= <span class="js__param"> target</span>.<span class="js__keyword">length</span>) {
