@@ -14,17 +14,23 @@
 <body>
 	<div class="wrapper">
 		<header>
-			<nav class="nav">
-				<ul class="menu">
-					<li class="menu__item"><a href="#myself">About</a></li>
-					<li class="menu__item"><a href="#contacts">Contacts</a></li>
-					<li class="menu__item"><a href="#skills">Skills</a></li>
-					<li class="menu__item"><a href="#experience">Projects</a></li>
-					<li class="menu__item"><a href="#code">Code</a></li>
-					<li class="menu__item"><a href="#educat">Education</a></li>
-					<li class="menu__item"><a href="#language">Language</a></li>
-				</ul>
-			</nav>
+			<div class="container__nav">
+				<div class="burger">
+					<span class="burger__line"></span>
+				</div>
+				<nav class="nav">
+					<ul class="menu">
+						<li class="menu__item"><a href="#myself">About</a></li>
+						<li class="menu__item"><a href="#contacts">Contacts</a></li>
+						<li class="menu__item"><a href="#skills">Skills</a></li>
+						<li class="menu__item"><a href="#experience">Projects</a></li>
+						<li class="menu__item"><a href="#code">Code</a></li>
+						<li class="menu__item"><a href="#educat">Education</a></li>
+						<li class="menu__item"><a href="#language">Language</a></li>
+					</ul>
+				</nav>
+				
+			</div>
 		</header>
 		<main class="content">	
 			<section class="left__section">
@@ -177,7 +183,7 @@
 								<code class="code__example-code">
 	<span class="js__function">convert</span> (<span class="js__string">'1010'</span>,<span class="js__param"> bin</span>,<span class="js__param"> dec</span>)
 	
-	<span class="js__keyword">function </span><span class="js__function">convert</span> (<span class="js__param">input</span>,<span class="js__param"> source</span>,<span class="js__param"> target</span>) {										
+	<span class="js__keyword">function </span><span class="js__function">convert</span> (<span class="js__param">input</span>,<span class="js__param"> source</span>,<span class="js__param"> target</span>) {
 		<span class="js__keyword">let </span><span class="js__perem">arr</span> = [];
 		<span class="js__keyword">let </span><span class="js__perem">inDec</span> = 0;
 
@@ -205,7 +211,7 @@
 						</h2>
 						<div class="language">
 							<ul class="language__title">
-								<li class="language__item"> Russian (lvl. C2)</li>
+								<li class="language__item"> Russian (First Language)</li>
 								<li class="language__item"> English (lvl. A2)</li>
 								<li class="language__item"> Polish (lvl. A2)</li>
 							</ul>
@@ -216,8 +222,8 @@
 			</section>
 		</main>
 		<footer>
-			<div class="nav">
-				<ul class="menu">
+			<div class="nav__footer">
+				<ul class="menu__footer">
 					<li class="menu__item">
 						<a href="https://github.com/alagun" target="_blank"> 
 							<img src="./img/gh.png" alt="GitHub">
@@ -235,5 +241,6 @@
 			</div>
 		</footer>
 	</div>
+	<script type="module" src="index.js"></script>
 </body>
 </html>
