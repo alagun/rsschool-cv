@@ -21,6 +21,7 @@
   box-sizing: border-box;
   list-style: none;
   font-family: "Nunito", sans-serif;
+  letter-spacing: 1px;
   scroll-behavior: smooth;
 }
 body {
@@ -377,7 +378,33 @@ footer {
     flex-wrap: nowrap;
     flex-direction: column;
   }
-
+  .menu__item {
+    text-align: left;
+  }
+  .menu__item a {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+  }
+  .menu__item a::before {
+    content: attr(data-text);
+    position: absolute;
+    color: var(--light-text);
+    width: 0%;
+    overflow: hidden;
+    transition: 1s;
+  }
+  .menu__item a:hover::before {
+    width: 100%;
+  }
+  .menu__item:hover {
+    background-color: var(--darkblue);
+  }
+  .menu__item a:hover {
+    color: var(--darkblue);
+  }
   .nav {
     position: fixed;
     top: 0%;
