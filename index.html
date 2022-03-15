@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Resume</title>
+		<link type="image/png" sizes="32x32" rel="icon" href="./img/favicon-32x32.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Shizuru&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@100;300;400;600&family=Shizuru&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="container__nav">
+				<div class="burger">
+					<span class="burger__line"></span>
+				</div>
+				<nav class="nav">
+					<ul class="menu">
+						<li class="menu__item"><a href="#myself" data-text="About">About</a></li>
+						<li class="menu__item"><a href="#contacts" data-text="Contacts">Contacts</a></li>
+						<li class="menu__item"><a href="#skills" data-text="Skills">Skills</a></li>
+						<li class="menu__item"><a href="#experience" data-text="Projects">Projects</a></li>
+						<li class="menu__item"><a href="#code" data-text="Code">Code</a></li>
+						<li class="menu__item"><a href="#educat" data-text="Education">Education</a></li>
+						<li class="menu__item"><a href="#language" data-text="Language">Language</a></li>
+					</ul>
+				</nav>
+				
+			</div>
+		</header>
+		<main class="content">	
+			<section class="left__section">
+				<div class="left__content">
+					<div class="profile">
+						<div class="image">
+							<img src="./img/photo.jpeg" alt="MyPhoto">
+						</div>
+						<h1 class="name">Alexey Lagun</h1>
+						<span class="position">Junior Front-End Developer</span>
+					</div>
+					<div class="info" id="contacts">
+						<h2>Contacts</h2>
+						<ul class="contacts__list">
+							<li class="contacts__item">
+								<i class='fa fa-map-marker'></i>
+								Brest, Belarus
+							</li>
+							<li class="contacts__item">
+								<a href="http://gmail.com" target="_blank">
+									<i class="fa fa-google-plus-official"></i>
+									alexej.lagun@gmail.com
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a href="https://github.com/alagun" target="_blank">
+									<i class="fa fa-github"></i>
+									alagun
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a href="http://discord.com" target="_blank">
+									<i class="fa fa-comments-o"></i>
+									alagun
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a href="http://telegram.org" target="_blank">
+									<i class="fa fa-telegram"></i>
+									@AlexeyLagun
+								</a>
+							</li>
+							<li class="contacts__item">
+								<i class='fa fa-phone'></i>
+								+375 33 674 08 53
+							</li>
+						</ul>
+					</div>
+					<div class="skills" id="skills">
+						<h2>Skills</h2>
+						<ul class="skills__list">
+							<li class="skills__item">
+								<p class="skill__title">VSCode</p>
+								<div class="progress__bar">
+									<div class="progress vscode__progress"></div>
+								</div>
+							</li>
+							<li class="skills__item">
+								<span class="skill__title">JS</span>
+								<div class="progress__bar">
+									<div class="progress js__progress"></div>
+								</div>
+							</li>
+							<li class="skills__item">
+								<span class="skill__title">Html</span>
+								<div class="progress__bar">
+									<div class="progress html__progress"></div>
+								</div>
+							</li>
+							<li class="skills__item">
+								<span class="skill__title">CSS</span>
+								<div class="progress__bar">
+									<div class="progress css__progress"></div>
+								</div>
+							</li>
+							<li class="skills__item">
+								<p class="skill__title">Git</p>
+								<div class="progress__bar ">
+									<div class="progress git__progress"></div>
+								</div>
+							</li>
+							<li class="skills__item">
+								<span class="skill__title">Figma</span>
+								<div class="progress__bar figma-progress">
+									<div class="progress figma__progress"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="projects" id="experience">
+						<h2>Projects</h2>
+						<ul class="projects__list">
+							<li class="project__item"><a href="https://github.com/alagun/rsschool-cv" target="_blank">CV</a></li>
+							<li class="project__item"><a href="http://" target="_blank">...</a></li>
+							<li class="project__item"><a href="http://" target="_blank">...</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="right__section">
+				<div class="right__content" >
+					<div class="myself" id="myself">
+						<h2 class="right__title">
+							<span>About myself</span>
+						</h2>
+						<p class="text">
+							I have strong willingness to learn and develop skills in IT sphere.
+						<br>
+							I know the basics of HTML/CSS-coding and Javascript.
+						<br>
+							My goal is to get all the knowledge you need to develop web applications.
+					</div>
+					<div class="education" id="educat">
+						<h2 class="right__title">
+							<span>Education</span>
+						</h2>
+						<ul class="education__list">
+							<li class="education__item">Brest State Technical University
+								<ul class="basic">
+									<li class="basic__item">Industrial electronics. Electronics engineer</li>
+								</ul>
+							</li>
+							<li class="education__item">Code Basics
+								<ul class="basic">
+									<li class="basic__item">HTML for beginners</li>
+									<li class="basic__item">CSS for beginners</li>
+									<li class="basic__item">JavaScript for beginners</li>
+								</ul>
+							</li>
+							<li class="education__item">Courses
+								<ul class="basic">
+									<li class="basic__item">RS School PreSchool</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="code" id="code">
+						<h2 class="right__title">
+							<span>Code</span>
+						</h2>
+						<p class="text">
+							<a href="https://www.codewars.com/kata/base-conversion" target="_blank">[Base Conversion kata from Codewars]</a>
+							<br>In this kata you ave to implement a base converter, which converts positive integers between arbitrary bases / alphabets.
+						</p>
+						<a class="codewars" href="https://www.codewars.com/users/alagun" target="_blank">
+							<img  src="https://www.codewars.com/users/alagun/badges/small" alt="score codewars">
+						</a>
+						<div class="code">
+							<pre class="code__example">
+								<code class="code__example-code">
+	<span class="js__function">convert</span> (<span class="js__string">'1010'</span>,<span class="js__param"> bin</span>,<span class="js__param"> dec</span>)
+	
+	<span class="js__keyword">function </span><span class="js__function">convert</span> (<span class="js__param">input</span>,<span class="js__param"> source</span>,<span class="js__param"> target</span>) {
+		<span class="js__keyword">let </span><span class="js__perem">arr</span> = [];
+		<span class="js__keyword">let </span><span class="js__perem">inDec</span> = 0;
+
+		<span class="js__keyword">for </span>(<span class="js__keyword">let </span><span class="js__perem">i</span> = 0, <span class="js__perem">i </span>< <span class="js__param">input</span>.<span class="js__keyword">length</span>; <span class="js__perem">i </span>++) {
+			<span class="js__perem">len </span>= <span class="js__param">input</span>.<span class="js__keyword">length</span> - 1 - <span class="js__perem">i</span>;
+			<span class="js__perem">inDec </span>= <span class="js__param">source</span>.<span class="js__keyword">indexOf</span>(<span class="js__param">input</span>[<span class="js__perem">len</span>]) *
+			      	     <span class="js__keyword">Math</span>.<span class="js__keyword">pow</span>(<span class="js__param">source</span>.<span class="js__keyword">length</span>, <span class="js__perem">i</span>);			
+		}	
+
+		<span class="js__keyword">while </span>(<span class="js__perem">inDec </span>>= <span class="js__param"> target</span>.<span class="js__keyword">length</span>) {
+			<span class="js__perem">symb </span>= <span class="js__perem">inDec </span>% <span class="js__param"> target</span>.<span class="js__keyword">length</span>;
+			<span class="js__perem">arr</span>.<span class="js__keyword">unshift</span>(<span class="js__param">target</span>[<span class="js__perem">symb</span>]);
+			<span class="js__perem">inDec </span>= <span class="js__keyword">Math</span>.<span class="js__keyword">floor</span>(<span class="js__perem">inDec </span>/ <span class="js__param">target</span>.<span class="js__keyword">length</span>);
+		}
+
+		<span class="js__perem">arr</span>.<span class="js__keyword">unshift</span>(<span class="js__param"> target</span>[<span class="js__perem">inDec</span>]);
+		<span class="js__keyword">return </span><span class="js__perem">arr</span>.<span class="js__keyword">join</span>(<span class="js__string">''</span>)
+	}								</code>
+							</pre>
+						</div>
+					</div>
+					<div class="language" id="language">
+						<h2 class="right__title">
+							<span>Language</span>
+						</h2>
+						<div class="language">
+							<ul class="language__title">
+								<li class="language__item"> Russian (First Language)</li>
+								<li class="language__item"> English (lvl. A2)</li>
+								<li class="language__item"> Polish (lvl. A2)</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="nav__footer">
+				<ul class="menu__footer">
+					<li class="menu__footer-item">
+						<a href="https://github.com/alagun" target="_blank"> 
+							<img src="./img/gh.png" alt="GitHub">
+						</a>
+					</li>
+					<li class="menu__footer-item">
+						<a href="https://rs.school/js/" target="_blank"> 
+							<img src="./img/rs.png" alt="RSSchool">
+						</a>
+					</li>
+					<li class="menu__footer-item">
+						<p>2022</p>	
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+	<script type="module" src="index.js"></script>
+</body>
+</html>
